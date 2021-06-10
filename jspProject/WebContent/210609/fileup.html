@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="up.jsp" method="post" enctype="multipart/form-data">
+		이름 : <input type="text" name="userName" /><br />
+		관심분야 : 
+			<label for="cp"> 
+						엔터테인먼트  : <input type="checkbox" name="cp" id="cp" value="엔터테인먼트"/>
+					</label><br />
+					<label for="cp">
+						컴퓨터 : <input type="checkbox" name="cp" id="cp" value="컴퓨터" />
+					</label><br />
+					<label for="cp">
+						경제 : <input type="checkbox" name="cp" id="cp" value="경제" />
+					</label><br />
+					<label for="cp">
+						스포츠 : <input type="checkbox" name="cp" id="cp" value="스포츠"/>
+					</label><br />
+					<label for="cp">
+						여행 : <input type="checkbox" name="cp" id="cp" value="여행" />
+					</label> <br/>
+		파일 : <input type="file" name="upfile" /><br />
+		<input type="submit" value="전송"/>
+	</form>
+</body>
+</html>
